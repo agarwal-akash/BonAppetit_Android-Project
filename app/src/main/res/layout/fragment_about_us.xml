@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent">
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/parent"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:spinnerMode="dialog">
+
+            <TextView
+                android:id="@+id/what_we_do"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerHorizontal="true"
+                android:padding="10dp"
+                android:text="@string/what_is_it"
+                android:textColor="#0207ff"
+                android:textSize="35sp"/>
+
+            <TextView
+                android:id="@+id/what_we_do_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/what_we_do"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:ellipsize="none"
+                android:maxLines="100"
+                android:scrollHorizontally="false"/>
+
+            <View
+                android:id="@+id/rule1"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@+id/what_we_do_text"
+                android:layout_margin="10dp"
+                android:background="@android:color/darker_gray"/>
+
+            <TextView
+                android:id="@+id/how_it_works"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/rule1"
+                android:layout_centerHorizontal="true"
+                android:text="@string/how_it_works"
+                android:textColor="#0409ff"
+                android:textSize="35sp"/>
+
+            <TextView
+                android:id="@+id/how_it_works_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/how_it_works"
+                android:padding="10dp"
+                android:textSize="15sp"
+                android:layout_weight="1"
+                android:ellipsize="none"
+                android:maxLines="100"
+                android:scrollHorizontally="false"/>
+            <ImageButton
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_below="@id/how_it_works_text"
+                android:layout_centerHorizontal="true"
+                android:background="@drawable/youtube_play"
+                android:padding="0dp"
+                android:cropToPadding="true"
+                android:scaleType="fitXY"
+                android:id="@+id/play"/>
+        </RelativeLayout>
+    </ScrollView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:padding="5dp"
+        android:id="@+id/akash"/>
+</RelativeLayout>
