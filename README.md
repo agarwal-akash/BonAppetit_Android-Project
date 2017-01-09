@@ -9,6 +9,12 @@ It can be used to save left over food in parties and restaurants by sharing the 
 To run this app on your phone download the apk file.  
 [Click here](https://github.com/agarwal-akash/BonAppetit_Android-Project/blob/master/app-debug.apk)
 
+## Screenshots
+
+<img src="https://github.com/agarwal-akash/BonAppetit_Android-Project/blob/master/Screenshot_1483983478.png" width="240">
+
+<img src="https://github.com/agarwal-akash/BonAppetit_Android-Project/blob/master/Screenshot_1483983641.png" width="240">
+
 ## Licence [![AUR](https://img.shields.io/badge/License-GNU-blue.svg)](https://github.com/agarwal-akash/Wakemeup/blob/master/LICENSE.txt)
 This app is licenced under [GNU](https://github.com/agarwal-akash/BonAppetit_Android-Project/blob/master/LICENSE).
 
