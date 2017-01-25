@@ -7,7 +7,7 @@ It can be used to save left over food in parties and restaurants by sharing the 
 
 ## Download
 To run this app on your phone download the apk file.  
-[Click here](https://github.com/agarwal-akash/BonAppetit_Android-Project/blob/master/app-debug.apk)
+[Click here](https://drive.google.com/open?id=0B-IFfiKz-VGKSllBaEhwU2dCTzA)
 
 ## Screenshots
 
